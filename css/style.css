@@ -1,0 +1,94 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/PG.jpg);
+}
+
+section{
+    width: 80%;
+    border: 4px solid violet;
+    margin: 120px auto;
+    display: flex;
+    background-size: cover;
+}
+
+section .cont-botones{
+    width: 50%;
+    background: violet;
+    padding: 40x 30px 200px;
+    text-align: center;
+}
+
+section .cont-botones h1{
+    color: white;
+    font-size: 45px;
+
+}
+
+section .cont-figura h1{
+    color: white;
+    font-size: 45px;
+    padding-left: 40%;
+
+}
+
+section .cont-botones button{
+    background: white;
+    padding: 10px 30px;
+    color: violet;
+    border: 1px solid white;
+    font-size: 30px;
+    margin: 20px 6px;
+    cursor: pointer;
+}
+
+section .cont-figura{
+    width: 50%;
+    position: relative;
+}
+
+#figura{
+    width: 200px;
+    height: 200px;
+    background: violet;
+    margin: 200px auto;
+    transition: 1s;
+}
+
+#figura.circulo{
+    border-radius: 50%;
+    background: violet;
+    transform: rotate(-360deg);
+}
+
+#figura.rectangulo{
+    width: 300px;
+    transition: .4s;
+}
+
+#figura.imagen{
+    background: url("../img/gatito.gif");
+    background-size: cover;
+}
+
+#figura.mtop{
+    transform: translateY(-300px);
+}
+
+#figura.mleft{
+    transform: translateX(-300px);
+}
+
+#figura.mright{
+    transform: translateX(300px);
+}
+
+#figura.mbottom{
+    transform: translateY(300px);
+}
+
+#figura.mdiagonal{
+    transform: translate(350px,-350px);
+}
